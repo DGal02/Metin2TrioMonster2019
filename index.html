@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="Shortcut icon" href="images/ikona.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Potworne Trio</title>
+    <meta name="keywords" content="Metin2">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .dropdown-menu {
+            padding: 0;
+            font-size: 0;
+            min-width: 497px;
+            max-width: 497px;
+            cursor: default;
+        }
+        
+        .dropdown-item {
+            padding: 0;
+            cursor: pointer;
+        }
+        
+        .dropdown-menu .displayinline {
+            width: 55px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wholepage">
+        <div style="margin-top:25px; max-width:616px; margin:0 auto;">
+            <div id="app">
+                <img src="images/tlop.png" class="img-fluid frontimg">
+                <h4 class="centert">Restart</h4>
+                <h4 class="centert">&darr;</h4>
+                <div data-toggle="popover" data-animation="true" data-content="Zrobione!" id="popoverhide" onclick="restart()" class="loader totalcenter pointer"></div>
+                <div id="gra" style="float:left; width:100%;">
+
+                    <div id="left">
+
+                        <div class="1">
+                            <div class="pointer displayinline dropdown">
+                                <img id="1" class="btop bleft dropdown-toggle" src="images/pustep.png" data-toggle="dropdown">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(1, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(1, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="2" src="images/pustep.png" class="btop bright dropdown-toggle" data-toggle="dropdown">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(2, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(2, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="3" src="images/pustep.png" style="margin-left:55px" class="bleft btop dropdown-toggle" data-toggle="dropdown">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(3, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(3, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="4" src="images/pustep.png" class="btop bright dropdown-toggle" data-toggle="dropdown">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(4, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(4, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="2">
+                            <div class="pointer displayinline dropdown">
+                                <img id="5" src="images/pustep.png" data-toggle="dropdown" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(5, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(5, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="6" src="images/pustep.png" data-toggle="dropdown" style="margin-left:5px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(6, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(6, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="7" src="images/pustep.png" data-toggle="dropdown" style="margin-left:26px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(7, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(7, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="8" src="images/pustep.png" data-toggle="dropdown" style="margin-left:12px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(8, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(8, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="3">
+                            <div class="pointer displayinline dropdown">
+                                <img id="9" src="images/pustep.png" data-toggle="dropdown" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(9, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(9, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="10" src="images/pustep.png" data-toggle="dropdown" style="margin-left:15px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(10, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(10, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="11" src="images/pustep.png" data-toggle="dropdown" style="margin-left:5px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(11, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(11, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="12" src="images/pustep.png" data-toggle="dropdown" style="margin-left:23px" class="bleft bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(12, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(12, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="4">
+                            <div class="pointer displayinline dropdown">
+                                <img id="13" src="images/pustep.png" data-toggle="dropdown" class="bleft bbottom bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(13, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(13, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="14" src="images/pustep.png" data-toggle="dropdown" style="margin-left:55px" class="bleft bbottom bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(14, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(14, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="pointer displayinline dropdown">
+                                <img id="15" src="images/pustep.png" data-toggle="dropdown" style="margin-left:58px" class="bleft bbottom bright dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(15, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(15, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div id="right">
+                        <div class="1">
+                            <div class="right pointer dropdown">
+                                <img id="16" src="images/pustep.png" data-toggle="dropdown" style="margin-top:18px;" class="bright btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(16, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(16, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="17" src="images/pustep.png" data-toggle="dropdown" class="bbottom btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(17, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(17, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="18" src="images/pustep.png" data-toggle="dropdown" class="bbottom btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(18, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(18, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="19" src="images/pustep.png" data-toggle="dropdown" class="bbottom bleft btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(19, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(19, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="2 clear">
+                            <div class="right pointer dropdown">
+                                <img id="20" src="images/pustep.png" data-toggle="dropdown" class="bright bbottom dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(20, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(20, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="21" src="images/pustep.png" data-toggle="dropdown" style="margin-top:18px;" class="btop bbottom dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(21, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(21, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="22" src="images/pustep.png" data-toggle="dropdown" style="margin-top:18px;" class="btop bbottom dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(22, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(22, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="23" src="images/pustep.png" data-toggle="dropdown" style="margin-top:54px;" class="btop bleft dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(23, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(23, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="3 clear">
+                            <div class="right pointer dropdown">
+                                <img id="24" src="images/pustep.png" data-toggle="dropdown" class="bright bbottom btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(24, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(24, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="25" src="images/pustep.png" data-toggle="dropdown" class="bbottom btop dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(25, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(25, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="26" src="images/pustep.png" data-toggle="dropdown" class="btop bbottom dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(26, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(26, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+                            <div class="right pointer dropdown">
+                                <img id="27" src="images/pustep.png" data-toggle="dropdown" class="btop bleft bbottom dropdown-toggle">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <img onclick="zmienkarte(27, 1)" src="images/1.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 25)" src="images/25.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 2)" src="images/2.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 16)" src="images/16.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 3)" src="images/3.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 28)" src="images/28.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 17)" src="images/17.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 8)" src="images/8.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 12)" src="images/12.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 5)" src="images/5.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 23)" src="images/23.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 20)" src="images/20.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 4)" src="images/4.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 27)" src="images/27.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 6)" src="images/6.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 13)" src="images/13.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 10)" src="images/10.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 24)" src="images/24.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 14)" src="images/14.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 26)" src="images/26.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 22)" src="images/22.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 15)" src="images/15.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 11)" src="images/11.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 21)" src="images/21.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 9)" src="images/9.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 7)" src="images/7.png" class="dropdown-item displayinline">
+                                    <img onclick="zmienkarte(27, 19)" src="images/19.png" class="dropdown-item displayinline">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div id="otryb2">
+                    <img src="images/1.png" class="displayinline">
+                    <img src="images/25.png" class="displayinline">
+                    <img src="images/2.png" class="displayinline">
+                    <img src="images/16.png" class="displayinline">
+                    <img src="images/3.png" class="displayinline">
+                    <img src="images/28.png" class="displayinline">
+                    <img src="images/17.png" class="displayinline">
+                    <img src="images/8.png" class="displayinline">
+                    <img src="images/12.png" class="displayinline">
+                    <img src="images/5.png" class="displayinline">
+                    <img src="images/23.png" class="displayinline">
+                    <img src="images/20.png" class="displayinline">
+                    <img src="images/4.png" class="displayinline">
+                    <img src="images/27.png" class="displayinline">
+                    <img src="images/6.png" class="displayinline">
+                    <img src="images/13.png" class="displayinline">
+                    <img src="images/10.png" class="displayinline">
+                    <img src="images/24.png" class="displayinline">
+                    <img src="images/14.png" class="displayinline">
+                    <img src="images/26.png" class="displayinline">
+                    <img src="images/22.png" class="displayinline">
+                    <img src="images/15.png" class="displayinline">
+                    <img src="images/11.png" class="displayinline">
+                    <img src="images/21.png" class="displayinline">
+                    <img src="images/9.png" class="displayinline">
+                    <img src="images/7.png" class="displayinline">
+                    <img src="images/19.png" class="displayinline">
+                </div>
+                <div id="tryby">
+                    <h3>Tryby</h3>
+                    <button onclick="tryb1()" id="tryb1" type="button" class="btn btn-success">1</button>
+                    <button onclick="tryb2()" id="tryb2" type="button" class="btn btn-danger">2</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>

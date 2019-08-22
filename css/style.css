@@ -1,0 +1,134 @@
+html,
+body {
+    margin: none;
+    background-image: linear-gradient(to bottom, #bb7777, #663333);
+    min-height: 100vh;
+}
+
+#wholepage {}
+
+.imgcenter {
+    margin: 0 auto;
+    display: block;
+}
+
+#app {
+    border: 2px solid black;
+    border-radius: 6px;
+    background: white;
+    min-width: 613px;
+}
+
+.frontimg {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.centert {
+    text-align: center;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 48px;
+    height: 48px;
+}
+
+.totalcenter {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loader:hover {
+    -webkit-animation: spin 1s linear infinite;
+    /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#gra {
+    background-image: url("../images/tlogry.jpg");
+    font-size: 0px;
+}
+
+#gra img {
+    width: 64px;
+    box-sizing: content-box;
+}
+
+.displayinline {
+    display: inline-block;
+}
+
+.btop {
+    border-top: 3px black solid;
+}
+
+.bleft {
+    border-left: 3px black solid;
+}
+
+.bbottom {
+    border-bottom: 3px black solid;
+}
+
+.bright {
+    border-right: 3px black solid;
+}
+
+#left {
+    float: left;
+    padding: 5px;
+}
+
+#right {
+    float: right;
+    padding: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#tryby {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#otryb2 {
+    font-size: 0;
+    width: 618px;
+    margin: 0 auto;
+    display: none;
+}
+
+#otryb2 .displayinline {
+    width: 68px;
+}
