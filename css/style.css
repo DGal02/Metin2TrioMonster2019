@@ -132,3 +132,13 @@ body {
 #otryb2 .displayinline {
     width: 68px;
 }
+
+.kartaukryta {
+    display: none;
+    cursor: pointer;
+}
+
+#tryb2pomoc {
+    min-height: 85px;
+    max-height: 85px;
+}
