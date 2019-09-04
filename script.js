@@ -28,10 +28,8 @@ function tryb1() {
             $(this).removeClass("pointer");
         });
         $("#otryb2").fadeOut();
-        $("#tryb2").removeClass("btn-success");
-        $("#tryb2").addClass("btn-danger");
-        $("#tryb1").removeClass("btn-danger");
-        $("#tryb1").addClass("btn-success");
+        $("#tryb2").removeClass("btn-success").addClass("btn-danger");
+        $("#tryb1").removeClass("btn-danger").addClass("btn-success");
         tryb--;
     }
 }

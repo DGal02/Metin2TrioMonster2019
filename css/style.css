@@ -3,6 +3,7 @@ body {
     margin: none;
     background-image: linear-gradient(to bottom, #bb7777, #663333);
     min-height: 100vh;
+    background-attachment: fixed;
 }
 
 #wholepage {}
